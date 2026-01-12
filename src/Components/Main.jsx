@@ -73,16 +73,19 @@ const Main = () => {
     <div className="h-full w-full text-white">
       <NavIntro />
 
-      <div className="pt-20">
+      <div className="pt-20 overflow-x-auto">
+        <div className="overflow-x-auto" id="right">
         <h2 className="text-2xl font-semibold px-7 mt-10 mb-3">
           Trending Now
         </h2>
         <Card items={trending} />
-
+        </div>
+        <div className="overflow-x-auto" id="right">
         <h2 className="text-2xl font-semibold px-7 mt-10 mb-3">
           Continue Watching
         </h2>
         <Card items={continueWatching} />
+        </div>
       </div>
     </div>
   );

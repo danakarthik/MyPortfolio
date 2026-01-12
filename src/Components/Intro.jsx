@@ -6,6 +6,8 @@ const Intro = () => {
 
   return (
     <div className="absolute bottom-0 left-0 z-20 p-10 w-full text-white flex flex-col gap-5">
+      
+
 
       {/* INTRO SECTION */}
       <div>
