@@ -29,7 +29,7 @@ const App = () => {
       <Nav />
       
       <Routes>
-        <Route path='MyPortfolio/' element={<Home />} /> 
+        <Route path='/MyPortfolio/' element={<Home />} /> 
         <Route path='/professional' element={<Professional />} />
         <Route path='/hire' element={<Hire />} />
         <Route path='/projects' element={<Projects />} />
